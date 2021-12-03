@@ -38,6 +38,8 @@ saveBtn.addEventListener("click", function (params) {
   localStorage.setItem("notes", JSON.stringify(notesArr));
 
   input.value = "";
+    window.location.reload();
+
 });
 
 function showNotes() {
